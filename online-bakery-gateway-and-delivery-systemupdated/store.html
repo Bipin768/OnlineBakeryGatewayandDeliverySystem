@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+
+    <link rel="stylesheet" href="src/store.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Bakery Store</title>
+</head>
+<body>
+    <div class="navbar">
+        <img   class="logo-img"  src="../src/logo.jpg" alt="">
+        <a href="HomePage/home.html">
+          <h2>Home</h2>
+        </a>
+        <a class="active" href="../store.html">
+          <h2>Stores</h2>
+        </a>
+    
+        <a href="../cart.html">
+          <div class="cart">
+            <i class="bi bi-cart2"></i>
+            <div id="cartAmount" class="cartAmount">0</div>
+          </div>
+        </a>
+        <a href="../contact.html">
+          <h2>Contact Us</h2>
+        </a>
+    
+      </div>
+      <div class="main-container">
+   <h2 class="heading"> Make Your Hunger Satisfied 😋😋😋 </h2>
+
+   <div id="store"></div>
+   <table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Store Name</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1</th>
+            <th><a href="shop/blackforest/blackforest.html"><img width="50px" height="50px" src="images/shop/blackforest.jpg" alt=""> Black Forest </a></th>
+            <th>123-456</th>
+            <th>Traffic Chok</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th><a href="shop/whitecake/whitecake.html"><img width="50px" height="50px" src="images/shop/whitecake.jpg" alt=""> WhiteCake </a></th>
+            <th>123-456</th>
+            <th>Millan Chok</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th><a href="shop/donnellybakery/donnellybakery.html"><img width="50px" height="50px" src="images/shop/donnellybakery.jpg" alt=""> Donnelly Bakery </a></th>
+            <th>123-456</th>
+            <th>Rajmarga Chauraha</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th><a href="shop/theswissbakery/theswissbakery.html"><img width="50px"height="50px" src="images/shop/theswissbakery.jpg" alt=""> The swiss Bakery </a></th>
+            <th>123-456</th>
+            <th>Tilottama-14</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th><a href="shop/istokbakery/istokbakery.html"><img width="50px" height="50px" src="images/shop/istokbakery.jpg" alt=""> Istok Bakery </a></th>
+            <th>123-456</th>
+            <th>Madaiya</th>
+        </tr>
+
+    </tbody>
+   </table>
+
+<div>
+    <a href="login.html"><button class="logout-btn">Logout</button></a>
+</div>
+</div>
+</body>
+<script src="src/store.js"></script>
+</html>
